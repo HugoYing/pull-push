@@ -12,7 +12,7 @@ function preload() {
 	myText = loadStrings("butterfly.txt");
 }
 
-function setup() {
+function setup() {      //by Xiaofu YING
 	createCanvas(900, 900);
 	background(73, 41, 87);
 	frameRate(30);
@@ -29,7 +29,7 @@ function setup() {
 } 
 
 
-function draw() {
+function draw() {     // by Ni yan
 	let die = 'happiness is a butterfly';
 	
 	let c1 = map(mouseX, 0, 900, 100, 190);
